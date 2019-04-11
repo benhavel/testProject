@@ -1,0 +1,454 @@
+/*HEADER SECTION*/
+
+body {
+	font-family: 'Open Sans', sans-serif;
+	margin: 0px;
+
+}
+
+header {
+	padding-top: 150px;
+}
+
+.left {
+	top: 230px;
+	position: absolute;
+	overflow: hidden;
+	left: -150px;
+	width: auto;
+	height: 400px;
+	background-position: center;
+	 -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+ 	 filter: grayscale(100%);
+ 	 clip: rect(0px,400px,400px,50px);
+
+
+}
+
+.right {
+	height: 400px;
+	width: auto;
+	top: 230px;
+	right: 0px;
+	position: absolute;
+	overflow: hidden;
+	display: inline-block;
+	/*clip: rect(0px,250px,330px,50px);*/
+ 	
+}
+
+.right img {
+	width: 100px;
+}
+
+
+.photos img{
+
+    background-image: cover;
+    height: 550px;
+    width: auto;
+    display: inline-block;
+    border: 10px solid white;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 12px 40px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 3px;
+
+
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 52%;
+
+}
+
+.text {
+	display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+  background-color: white;
+  padding: 40px;
+  position: relative;
+  bottom: 150px;
+}
+.text p {
+	font-size: 14px;
+	line-height: 35px;
+	font-weight: lighter;
+}
+
+.squaresleft img{
+	position: relative;
+	bottom: 280px;
+	left: 170px;
+	height: 100px;
+	display: inline-block;
+}
+
+.squaresright img {
+	position: relative;
+	bottom: 280px;
+	float: right;
+	height: 100px;
+	right: 150px;
+	bottom: 380px;
+	display: inline-block;
+}
+
+.squarescenter img{
+	text-align: center;
+	height: 100px;
+	display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.headline h1 {
+	color: #6b80a1;
+	font-weight: lighter;
+	font-style: italic;
+	text-transform:  uppercase;
+	text-align: center;
+	position: relative;
+	bottom:170px;
+	display: block;
+	padding-left: 100px;
+}
+
+.quotes1 img{
+	height: 50px;
+	position: relative;
+	left: 300px;
+}
+
+.quotes2 img{
+	height: 50px;
+	position: relative;
+	right: 300px;
+	float: right;
+	bottom: 50px;
+}
+
+.quotespara {
+	
+	display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+  background-color: white;
+  position: relative;
+  text-align: center;
+  padding: 0;
+  margin-top: 0;
+  
+
+}
+
+.quotespara p{
+	font-size: 16px;
+	font-weight: lighter;
+	line-height: 30px;
+
+}
+
+@media (max-width: 1000px){
+
+
+	.photos img{
+
+    background-image: cover;
+    height: 300px;
+    width: auto;
+    display: inline-block;
+    border: 10px solid white;
+    position: relative;
+    bottom: 100px;
+    left: 10px;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 12px 40px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 3px;
+
+
+	}
+
+	.center {
+	  display: inline-block;
+	  margin-left: auto;
+	  margin-right: auto;
+	  width: 100%;
+
+	}
+
+	.left {
+		display: none;
+
+	}
+
+	.right {
+		display: none;
+	}
+
+	.quotes1 img{
+	height: 50px;
+	position: relative;
+	left: 300px;
+	}
+
+	.quotes2 img{
+	height: 50px;
+	position: relative;
+	right: 300px;
+	float: right;
+	bottom: 0px;
+	}
+
+	.squaresleft img{
+	display: none;
+	}
+
+	.squaresright img {
+		position: relative;
+		float: right;
+		height: 100px;
+		right: 150px;
+		bottom: 160px;
+		display: inline-block;
+	}
+
+	.text {
+	  display: block;
+	  margin-left: auto;
+	  margin-right: auto;
+	  width: 70%;
+	  background-color: white;
+	  padding: 40px;
+	  position: relative;
+	  bottom: 150px;
+	}
+	.text p {
+	font-size: 14px;
+	line-height: 35px;
+	font-weight: lighter;
+	}
+
+	.headline h1 {
+	color: #6b80a1;
+	font-weight: lighter;
+	font-style: italic;
+	text-transform:  uppercase;
+	text-align: center;
+	position: relative;
+	bottom:30px;
+	display: block;
+	padding-left: 100px;
+	}	
+
+}
+
+
+
+
+/*FOOTER SECTION*/
+
+
+.lastimg {
+	top: 100px;
+	position: relative;
+	float: right;
+	
+	width: 550px;
+	background-position: center;
+	display: inline-block;
+	
+}
+
+.lastimg img {
+	width: 100px;
+}
+
+.name {
+	margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+	display: block;
+	right: 100px;
+	top: 120px;
+	position: relative;
+}
+
+.name h1 {
+	color: gray;
+	font-weight: lighter;
+	text-align: right;
+	line-height: 40px;
+	text-transform: uppercase;
+}
+
+
+.lastquote {
+	
+	display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+  background-color: white;
+  position: relative;
+  text-align: center;
+  padding-left: 200px;
+  top: 70px;
+  
+
+
+
+}
+.lastquote h1 {
+	color: gray;
+	font-size: 50px;
+	text-align: left;
+	padding-top: 70px;
+	font-weight: lighter;
+}
+
+span{
+	font-size: 70px;
+}
+
+.lastquote p{
+	color: gray;
+	font-size: 13px;
+	font-weight: lighter;
+	line-height: 30px;
+	text-align: left;
+	width: 600px;
+
+
+
+}
+
+
+.bar img {
+	height: 100px;
+	width: auto;
+	position: relative;
+	left: 150px;
+	top: 130px;
+
+}
+
+
+/*tabs section*/
+
+ul {
+    list-style: none;
+    display: inline-block;
+}
+ul li {
+    display: inline-block;
+    font-size: 1.25em;
+    line-height: 40px;
+    margin: 0 8px;
+
+}
+
+.tabsection {
+	position: relative;
+	display: inline-block;
+	left: 400px;
+	top: 120px;
+
+}
+
+
+.nav .active a {
+    color: #6b80a1;
+   	font-weight: bold;
+   	font-size: 20px;
+   	text-transform: uppercase;
+
+
+}
+.nav a {
+	font-size: 13px;
+	text-decoration: none;
+    color: #6b80a1;
+    text-transform: uppercase;
+}
+.tab-pane {
+    display: none;
+
+}
+.tab-pane.active {
+    display: block;
+}
+
+
+footer{
+	margin-bottom: 200px;
+	margin-top: 100px;
+}
+
+@media (max-width: 1000px) {
+	.tabsection {
+	left: 100px;
+	position: relative;
+	display: inline-block;
+	width: auto;
+	
+	}
+
+	.bar img {
+	height: 100px;
+	width: auto;
+	position: relative;
+	
+
+	}
+
+	.name h1 {
+	color: gray;
+	font-weight: lighter;
+	text-align: right;
+	line-height: 40px;
+	text-transform: uppercase;
+	display: block;
+	}
+
+	.nav .active a {
+    color: #6b80a1;
+   	font-weight: bold;
+   	font-size: 20px;
+   	text-transform: uppercase;
+   	width: auto;
+
+	}
+	.nav a {
+		font-size: 13px;
+		text-decoration: none;
+	    color: #6b80a1;
+	    text-transform: uppercase;
+	    width: auto;
+	}
+
+	.name {
+	margin-left: auto;
+  	margin-right: auto;
+    width: 60%;
+	display: block;
+	position: relative;
+	}
+	.lastquote h1{
+		left: 200px;
+	}
+	.lastquote p{
+	color: gray;
+	font-size: 13px;
+	font-weight: lighter;
+	line-height: 30px;
+	text-align: left;
+	width: auto;
+	position: relative;
+	right: 100px;
+
+	}
+}
